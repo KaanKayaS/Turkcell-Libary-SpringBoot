@@ -1,9 +1,7 @@
 package turkcell.libaryspringboot.libary.entity;
 
 import jakarta.persistence.*;
-import org.hibernate.annotations.UuidGenerator;
 import java.util.List;
-import java.util.UUID;
 
 @Entity
 @Table(name = "categories")
